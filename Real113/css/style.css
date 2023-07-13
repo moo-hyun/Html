@@ -1,0 +1,441 @@
+            *{
+                margin: 0;
+                padding: 0;
+                font: normal 12px '고딕';
+            }
+            ul,ol {list-style: none;}
+            
+            a{text-decoration: none; color: black;}
+
+
+            #container {
+                width: 100%;
+                height: auto;
+            }
+
+            header {
+                width: 100%;
+                height: 80px;
+                background: url('../images/header_bg.gif');
+
+            }
+
+            header > div{
+                position: relative;
+                width: 1000px;
+                height: 100%;
+                margin: 0 auto;
+            }
+
+            header .logo {
+                margin-top: 6px;
+            }
+
+            header .gnb {
+                float: right;
+                width: 620px;
+                height: 32px;
+                margin-top: 14px;
+                overflow: hidden;
+            }
+
+            header .gnb > li {
+                float: left;
+                width: 20%;
+                height: 100%;
+                box-sizing: border-box;
+                text-align: right;
+            }
+
+            header .gnb > li > a {
+                text-align: right;
+                line-height: 32px;
+                font-size: 17px;
+                font-weight: bolder;
+            }
+
+            header .gnb > li > a:hover {
+                color: #7b231f;
+            }
+
+            header .latest {
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 50%;
+                height: 30px;
+                box-sizing: border-box;
+            }
+
+            header .latest > a {
+                margin-top: 4px;
+                display: inline-block; 
+                color: #555;
+            }
+
+            header .latest > a:nth-child(2) {
+                position: relative;
+                left: 6px;
+                top: -8px;
+                
+            }
+
+            main {
+                width: 1000px;
+                height: auto;
+                margin: 5px auto;
+            }
+
+            main > div {
+                overflow: hidden;
+            }
+
+            main > div > div {
+                border: 1px solid #d7d7d7;
+                box-sizing: border-box;
+            }
+
+            main > div > .bn {
+                float: left;
+                width: 670px;
+                height: 320px;
+                background: url('../images/main_banner_bg.jpg');
+                overflow: hidden;
+            }
+
+            main >div > .bn > img {
+                margin-top: 100px;
+                margin-left: 160px;
+            }
+
+            main > div > .bn > ul {
+                float: right;
+                width: 80px;
+                height: 100%;
+                border-left: 1px solid #d7d7d7;
+            }
+
+            main > div > .bn > ul > img {
+                display: block;
+            }
+
+            main > div > .bn > ul > li {
+                width: 100%;
+                height: 41px;
+                border-top: 1px solid #d7d7d7;
+                box-sizing: border-box;
+            }
+
+            main > div > .bn > ul > li > a {
+                display: block;
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                line-height: 40px;
+                background: #f2f2f2;
+                font-weight: bold;
+                font-size: 14px;
+
+            }
+
+            main > div > .call {
+                position: relative;
+                float: right;
+                width: 326px;
+                height: 133px;
+                background: #f2f2f2;
+            }
+
+            main > div > .call > img {
+                position: absolute;
+
+            }
+
+            main > div > .call >img:nth-child(1) {
+                top: 20px;
+                left: 20px;
+                z-index: 4;
+
+            }
+
+            main > div > .call >img:nth-child(2) {
+                top: 46px;
+                left:20px;
+                z-index: 2;
+            }
+
+            main > div > .call >img:nth-child(3) {
+                top : 77px;
+                left: 20px;
+                z-index: 3;
+            }
+
+            main > div > .call >img:nth-child(4) {
+                bottom: 2px;
+                right: 0;
+                z-index: 1;
+            }
+
+
+            main > div > .qa {
+                position: relative;
+                float: right;
+                width: 326px;
+                height: 182px;
+                margin-top: 5px;
+                padding: 20px;
+                box-sizing: border-box;
+            }
+
+            main > div > .qa > h3 {
+                font-size: 14px;
+                font-weight: bold;
+            }
+
+            
+            main > div > .qa > table td {
+                color: #6a6a6a;
+                
+            }
+
+            main > div > .qa > table > tbody{
+                position: absolute;
+                top: 42px;
+                left: 16px;
+            }
+
+            main > div > .qa > table > tbody > tr > td > a{
+                color: #6a6a6a;
+            }
+
+            main > div > .qa > table td:nth-child(2) {
+                
+                font-size: 12px;
+                overflow: hidden;
+                display: inline-block;
+                width: 219px;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                line-height: 15px;
+            }
+
+            
+
+            main > section {
+                overflow: hidden;
+            }
+
+            main > section > aside {
+                float: left;
+                width: 195px;
+                height: 760px;
+                margin-top: 5px;
+                border: 1px solid #d7d7d7;
+                box-sizing: border-box;
+                
+               
+            }
+
+            main > section > aside > .notice > ul {
+                display: inline-block;
+                width: 180px;
+                white-space: nowrap;
+                overflow: hidden;
+
+            }
+
+            main > section > aside > .notice > ul > li {
+                line-height: 20px;
+                text-overflow: ellipsis;
+            }
+            
+
+
+            main > section > aside > article {
+                width: 100%;
+                height: 204px;
+                padding: 10px;
+                box-sizing: border-box;
+                overflow: hidden;
+            }
+
+            main > section > aside > article > h3 {
+                font-size: 14px;
+                font-weight: bold;
+            }
+
+            main > section > aside >article >ul {
+                margin-top: 6px;
+            
+            }
+
+            main  >section > aside > article > ul >li {
+                overflow: hidden;
+
+            }
+
+            main > section > aside > article > a {
+                display: block;
+                width: 100%;
+                height: 34px;
+                border: 1px solid #d9d9d9;
+                margin-top: 6px;
+                font-size: 0;
+                background-position: 10px center;
+                background-repeat: no-repeat;
+            } 
+
+            main> section > aside >article > a:nth-of-type(1) {
+                background-image: url('../images/aside_quick_court.png');
+            }
+            main> section > aside >article > a:nth-of-type(2) {
+                background-image: url('../images/aside_quick_google.png');
+            }
+            main> section > aside >article > a:nth-of-type(3) {
+                background-image: url('../images/aside_quick_naver_map.png')
+            }
+            main> section > aside >article > a:nth-of-type(4) {
+                background-image: url('../images/aside_quick_naver_subway.png');
+            }
+
+            main > section > aside > a {
+                position: relative;
+                display: block;
+                left: -1px;
+                width: 195px;
+                height: 83px;
+                border: 1px solid #999;
+                box-sizing: border-box;
+                overflow: hidden;
+                margin-top: 6px;
+            } 
+
+            main > section > aside > .sell img:nth-of-type(1){
+                position: absolute;
+                right: 0;
+                top: 0.3px;
+                z-index: 1;
+            }
+            main > section > aside > .sell img:nth-of-type(2){
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                margin: 10px;
+                z-index: 2;
+
+            }
+
+            main > section > aside > .buy img:nth-of-type(1){
+                position: absolute;
+                right: 0;
+                top: 0.3px;
+                z-index: 1;
+            }
+            main > section > aside > .buy img:nth-of-type(2){
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                margin: 10px;
+                z-index: 2;
+
+            }
+
+
+            main> section >aside > .bn2 {
+                position: relative;
+                left: -1px;
+                width: 195px;
+                height: 167px;
+                box-sizing: border-box;
+                border: 1px solid #999;
+                margin-top: 5px;
+                background-image: url('../images/aside_banner_bg.jpg');
+            }
+
+            main> section >aside > .bn2 > img:nth-of-type(1) {
+                margin-left: 163px;
+            }
+            main> section >aside > .bn2 > img:nth-of-type(2) {
+                margin-top: -3px;
+                margin-left: 10px;
+            }
+
+            main> section >aside > .bn2 > a > img {
+                margin-top: 8px;
+                margin-left: 10px;
+            }
+            
+            
+
+            main > section > article {
+                float: right;
+                width: 800px;
+                height: 250px;
+                margin-top: 5px;
+                padding: 16px;
+                border: 1px solid #d7d7d7;
+                box-sizing: border-box;
+
+            }
+
+            main > section > article > h3 {
+                font-size: 14px;
+                font-weight: bold;
+            }
+
+
+            main > section > article > h3 > a {
+                float: right;
+            } 
+
+            main > section > article > ul {
+                width: 100%;
+                height: auto;
+                overflow: hidden;
+                margin-top: 26px;
+            }
+
+            main> section > article > ul > li {
+                float: left;
+                width: 20%;
+                height: 100%;
+            }
+
+            
+
+            main> section > article > ul .thumb {
+                width: 150px;
+                height: 100px;
+
+            }
+
+            main> section > article > ul > li > a {
+                display: block;
+                text-align: center;
+            }
+
+            footer {
+                width: 1000px;
+                height: 130px;
+                border: 1px solid #d7d7d7;
+                border-top: 2px solid #777777;
+                padding: 10px;
+                box-sizing: border-box;
+                margin: 0 auto;
+                margin-bottom: 10px;
+            }
+
+            footer > p {
+                font-size: 11.5px;
+                color: #585858;
+                line-height: 20px;
+                margin-left: 10px;
+            } 
+            
+            footer > p > span {
+                display: block;
+                margin-top: 5px;
+                font-weight: bold;
+
+            }
+
