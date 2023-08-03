@@ -94,7 +94,7 @@ main {
     position: relative;
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    
 }
 #slideShow > section >img {
     position: absolute;
@@ -152,7 +152,7 @@ main {
     display: none;
 }
 
-#tabMenu > label:first-child {
+#tabMenu > label.on {
     color: #bb0000;
     
 
